@@ -1,0 +1,56 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "a7e7982f141f781e073bb03b10c5fb28295d48ce0ffbb17a6c8a4fe42e0ef4d7"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator14.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/Ronish/Documents/iOS Udemy/Quizzler-iOS13/Build/Intermediates",
+      "buildProductsPath" : "/Users/Ronish/Documents/iOS Udemy/Quizzler-iOS13/Build/Products",
+      "derivedDataPath" : "/Users/Ronish/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/Ronish/Library/Developer/Xcode/DerivedData/Quizzler-iOS13-ewujouqctkgwuoafmactzqaxhghs/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/Ronish/Library/Developer/Xcode/DerivedData/Quizzler-iOS13-ewujouqctkgwuoafmactzqaxhghs/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/Ronish/Documents/iOS Udemy/Quizzler-iOS13/Build/Intermediates/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone12,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "14.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "B7A75C14-5E3C-4B7C-9571-A29348158F3F",
+          "TARGET_DEVICE_MODEL" : "iPhone12,1",
+          "TARGET_DEVICE_OS_VERSION" : "14.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
